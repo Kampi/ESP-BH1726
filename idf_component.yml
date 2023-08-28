@@ -1,0 +1,6 @@
+version: "1.0.0"
+description: BH1726
+url: https://gitlab.server-kampert.de/esp32/libraries/bh1726
+dependencies:
+  idf:
+    version: ">=4.0"

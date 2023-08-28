@@ -1,0 +1,25 @@
+{
+  "name": "BH1726",
+  "version": "1.0.0",
+  "keywords": "esp-idf",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "frameworks": "espidf",
+  "platforms": "*",
+  "build": {
+    "flags": [
+      "-Iinclude",
+    ],
+    "includeDir": ".",
+    "srcDir": ".",
+    "srcFilter": [
+		  "-<*>",
+		  "+<src>"
+	  ]
+  },
+  "dependencies": [
+  ]
+}

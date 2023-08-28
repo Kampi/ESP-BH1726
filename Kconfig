@@ -1,0 +1,10 @@
+menu "BH1726"
+    menu "Misc"
+        config BH1726_MISC_ERROR_BASE
+            hex "BH1726 driver error base definition"
+            range 0 FFFF
+            default 0x8000
+            help
+                Set the error base for the driver.
+    endmenu
+endmenu
